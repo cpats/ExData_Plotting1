@@ -1,5 +1,9 @@
 ## Introduction
 
+This assignment is for the Exploratory Data Analysis course in Coursera. Each file (plot1.R, plot2.R, plot3.R, and plot4.R) contains codes for downloading the data from the repository and loading the data to R. Each file when run, will check whether the data exists in the working directory. If not, download begins and the file is saved as datasets.zip in the folder data. An unzip operation is then executed to unpack the contents of datasets.zip. Data in household_power_consumption.txt is then loaded in R into the variable powerData. Right after the execution of all codes in (plot1.R, plot2.R, plot3.R, or plot4.R), a png file containing the plot is generated named respectively as plot1.png, plot2.png, plot3.png, and plot4.png.
+
+Below are the original specifications/instructions of the assignment:
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
